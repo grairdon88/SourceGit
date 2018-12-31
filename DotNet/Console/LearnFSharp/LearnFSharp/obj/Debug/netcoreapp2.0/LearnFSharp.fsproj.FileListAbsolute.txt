@@ -1,0 +1,8 @@
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\bin\Debug\netcoreapp2.0\LearnFSharp.deps.json
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\bin\Debug\netcoreapp2.0\LearnFSharp.runtimeconfig.json
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\bin\Debug\netcoreapp2.0\LearnFSharp.runtimeconfig.dev.json
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\bin\Debug\netcoreapp2.0\LearnFSharp.dll
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\bin\Debug\netcoreapp2.0\LearnFSharp.pdb
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\obj\Debug\netcoreapp2.0\LearnFSharp.fsprojAssemblyReference.cache
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\obj\Debug\netcoreapp2.0\LearnFSharp.dll
+C:\SourceGit\grairdon88\SourceGit\DotNet\Console\LearnFSharp\LearnFSharp\obj\Debug\netcoreapp2.0\LearnFSharp.pdb
