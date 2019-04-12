@@ -1,0 +1,12 @@
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/obj/Debug/netstandard2.0/HelloDocker.Infrastructure.csprojAssemblyReference.cache
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/obj/Debug/netstandard2.0/HelloDocker.Infrastructure.csproj.CoreCompileInputs.cache
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/obj/Debug/netstandard2.0/HelloDocker.Infrastructure.AssemblyInfoInputs.cache
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/obj/Debug/netstandard2.0/HelloDocker.Infrastructure.AssemblyInfo.cs
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/bin/Debug/netstandard2.0/HelloDocker.Infrastructure.deps.json
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/bin/Debug/netstandard2.0/HelloDocker.Infrastructure.dll
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/bin/Debug/netstandard2.0/HelloDocker.Infrastructure.pdb
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/bin/Debug/netstandard2.0/HelloDocker.Domain.dll
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/bin/Debug/netstandard2.0/HelloDocker.Domain.pdb
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/obj/Debug/netstandard2.0/HelloDocker.Infrastructure.csproj.CopyComplete
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/obj/Debug/netstandard2.0/HelloDocker.Infrastructure.dll
+/home/greg/Projects/HelloDocker/HelloDocker.Infrastructure/obj/Debug/netstandard2.0/HelloDocker.Infrastructure.pdb
