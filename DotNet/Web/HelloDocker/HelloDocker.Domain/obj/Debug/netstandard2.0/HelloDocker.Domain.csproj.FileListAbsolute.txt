@@ -7,3 +7,12 @@
 /home/greg/Projects/HelloDocker/HelloDocker.Domain/bin/Debug/netstandard2.0/HelloDocker.Domain.pdb
 /home/greg/Projects/HelloDocker/HelloDocker.Domain/obj/Debug/netstandard2.0/HelloDocker.Domain.dll
 /home/greg/Projects/HelloDocker/HelloDocker.Domain/obj/Debug/netstandard2.0/HelloDocker.Domain.pdb
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\bin\Debug\netstandard2.0\HelloDocker.Domain.deps.json
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\bin\Debug\netstandard2.0\HelloDocker.Domain.dll
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\bin\Debug\netstandard2.0\HelloDocker.Domain.pdb
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\obj\Debug\netstandard2.0\HelloDocker.Domain.csprojAssemblyReference.cache
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\obj\Debug\netstandard2.0\HelloDocker.Domain.csproj.CoreCompileInputs.cache
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\obj\Debug\netstandard2.0\HelloDocker.Domain.AssemblyInfoInputs.cache
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\obj\Debug\netstandard2.0\HelloDocker.Domain.AssemblyInfo.cs
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\obj\Debug\netstandard2.0\HelloDocker.Domain.dll
+C:\SourceGit\DotNet\Web\HelloDocker\HelloDocker.Domain\obj\Debug\netstandard2.0\HelloDocker.Domain.pdb

@@ -12,9 +12,21 @@ namespace HelloDocker.Infrastructure {
             _connectionString = connectionString;
         }
 
-        public Task<Order> GetByOrderNumber (string orderNumber) {
-            using(SqlConnection conn = new SqlConnection()){
-                return null;
+        public async Task<Order> GetByOrderNumberAsync (string orderNumber) {
+            using(SqlConnection conn = new SqlConnection(_connectionString)){
+                DynamicParameters parameters = new DynamicParameters();
+                parameters.Add("@OrderNumber", orderNumber, System.Data.DbType.String, System.Data.ParameterDirection.Input, 50);
+                return await conn.QuerySingleAsync<Order>("dbo.upGetOrderByOrderNumber", parameters, null, 30, System.Data.CommandType.StoredProcedure);
+            }
+        }
+
+        public async Task CreateOrder(Order newOrder, string hostAddress) {
+            using (SqlConnection conn = new SqlConnection(_connectionString)) {
+                DynamicParameters parameters = new DynamicParameters();
+                parameters.Add("@OrderNumber", newOrder.OrderNumber, System.Data.DbType.String, System.Data.ParameterDirection.Input, 50);
+                parameters.Add("@HostAddress", hostAddress, System.Data.DbType.String, System.Data.ParameterDirection.Input, 500);
+
+                await conn.QueryAsync("dbo.upCreateOrder", parameters, null, 30, System.Data.CommandType.StoredProcedure);
             }
         }
     }

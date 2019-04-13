@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/greg/Projects/HelloDocker/HelloDocker.Domain/HelloDocker.Domain.csproj": {}
+    "C:\\SourceGit\\DotNet\\Web\\HelloDocker\\HelloDocker.Domain\\HelloDocker.Domain.csproj": {}
   },
   "projects": {
-    "/home/greg/Projects/HelloDocker/HelloDocker.Domain/HelloDocker.Domain.csproj": {
+    "C:\\SourceGit\\DotNet\\Web\\HelloDocker\\HelloDocker.Domain\\HelloDocker.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/greg/Projects/HelloDocker/HelloDocker.Domain/HelloDocker.Domain.csproj",
+        "projectUniqueName": "C:\\SourceGit\\DotNet\\Web\\HelloDocker\\HelloDocker.Domain\\HelloDocker.Domain.csproj",
         "projectName": "HelloDocker.Domain",
-        "projectPath": "/home/greg/Projects/HelloDocker/HelloDocker.Domain/HelloDocker.Domain.csproj",
-        "packagesPath": "/home/greg/.nuget/packages/",
-        "outputPath": "/home/greg/Projects/HelloDocker/HelloDocker.Domain/obj/",
+        "projectPath": "C:\\SourceGit\\DotNet\\Web\\HelloDocker\\HelloDocker.Domain\\HelloDocker.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceGit\\DotNet\\Web\\HelloDocker\\HelloDocker.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/greg/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
