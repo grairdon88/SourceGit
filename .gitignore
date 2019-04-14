@@ -1,2 +1,14 @@
 *.dll
 *.pdb
+*.sqlite
+*.lock
+*.suo
+*.ide
+*.dtbcache
+*.cache
+
+
+bin/
+.vs/
+Debug/
+Release/

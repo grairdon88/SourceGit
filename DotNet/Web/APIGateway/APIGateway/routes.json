@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "endpoint": "/callback",
+      "destination": {
+        "url": "http://localhost:60217/callback/",
+        "requiresAuthentication": false
+      }
+    }
+  ],
+  "authenticationService":  null
+}

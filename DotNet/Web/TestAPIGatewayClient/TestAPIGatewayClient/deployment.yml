@@ -1,0 +1,19 @@
+
+
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: testapigatewayclient
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: testapigatewayclient
+    spec:
+      containers:
+      - name: testapigatewayclient
+        imagePullPolicy: Never # <-- here we go!
+        image: testapigatewayclient
+        ports:
+        - containerPort: 55555
