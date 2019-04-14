@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace HelloDocker {
     public class Startup {
@@ -25,10 +26,19 @@ namespace HelloDocker {
         public void ConfigureServices (IServiceCollection services) {
             services.AddSingleton<IOrderRepository>(o => new OrderRepository(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion (CompatibilityVersion.Version_2_2);
+
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new Info{Title = "Hello Docker", Version = "v1"});
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure (IApplicationBuilder app, IHostingEnvironment env) {
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hello Docker");
+            });
+
             if (env.IsDevelopment ()) {
                 app.UseDeveloperExceptionPage ();
             } else {
