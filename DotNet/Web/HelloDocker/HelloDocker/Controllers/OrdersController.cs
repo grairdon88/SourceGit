@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using HelloDocker.Domain.AggregateRoot;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace HelloDocker.Controllers {
     [ApiController]
@@ -26,7 +27,7 @@ namespace HelloDocker.Controllers {
         [HttpPost, Route("Orders/CreateOrder")]
         public async Task<dynamic> CreateOrder(Order newOrder) {
             try {
-                await _orderRepository.CreateOrder(newOrder, Environment.MachineName);
+                await _orderRepository.CreateOrder(newOrder, Dns.GetHostName());
                 return Ok();
             }
             catch (Exception ex) {
