@@ -17,7 +17,7 @@ namespace HelloDocker.Controllers {
         [HttpGet, Route("Orders/GetByOrderNumber/{orderNumber}")]
         public async Task<dynamic> GetByOrderNumber(string orderNumber){
             try{
-                return Ok(await _orderRepository.GetByOrderNumberAsync(orderNumber));
+                return Ok(await _orderRepository.GetByOrderNumberAsync(orderNumber, Dns.GetHostName()));
             }
             catch(Exception ex){
                 return BadRequest(ex);
